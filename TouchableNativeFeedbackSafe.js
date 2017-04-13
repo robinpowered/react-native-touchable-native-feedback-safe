@@ -25,6 +25,7 @@ export default class TouchableNativeFeedbackSafe extends React.Component {
   static SelectableBackground = TouchableComponent.SelectableBackground;
   static SelectableBackgroundBorderless = TouchableComponent.SelectableBackgroundBorderless;
   static Ripple = TouchableComponent.Ripple;
+  static propTypes = TouchableComponent.propTypes;
 
   render() {
     if (TouchableComponent === TouchableNativeFeedback) {
